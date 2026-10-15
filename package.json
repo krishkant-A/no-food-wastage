@@ -1,0 +1,14 @@
+{
+  "name": "no-food-wastage",
+  "version": "1.0.0",
+  "description": "Hyperlocal Surplus Meal Tracking & Redistribution Platform",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "dev": "concurrently \"npm --prefix server start\" \"npm --prefix client dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
